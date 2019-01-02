@@ -8,12 +8,14 @@ import { CustomerListComponent } from "./customers/customer-list/customer-list.c
 import { FilterTextboxComponent } from "./customers/customer-list/filter-textbox/filter-textbox.component";
 import { SharedModule } from "./shared/shared.module";
 import { CoreModule } from "./core/core.module";
+import { OrdersComponent } from './orders/orders.component';
 @NgModule({
   declarations: [
     AppComponent,
     CustomersComponent,
     CustomerListComponent,
-    FilterTextboxComponent
+    FilterTextboxComponent,
+    OrdersComponent
   ],
   imports: [
     BrowserModule,
